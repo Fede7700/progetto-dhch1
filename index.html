@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Attestazioni dantesche</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html" title="Torna a Home">Attestazioni dantesche</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" title="Home">Home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" title="Introduzione">Introduzione</a>
+                    </li>
+                    <!-- sposta la classe active in base alla pagina visualizzata -->
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            title="Catalogo">Catalogo</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#" title="Lista">Lista</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#" title="Luoghi">Luoghi</a>
+                            <a class="dropdown-item" href="#" title="Date">Date</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" title="Persone">Persone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" title="Temi">Temi</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary btn-blue my-2 my-sm-0" type="submit">Cerca</button>
+                </form>
+            </div>
+        </nav>
+		</header>
+		<main>
+			<section class="testata">
+				<div class="container-fluid" style="background-color:darkgrey;">
+					<div class="row">
+						<div class="col-md-12" style="color: lightgray; text-align:center;">Catalogo Lista</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="row">
+					<div class="col-md-2">
+						<aside>
+							<ul class="pl-0">
+		                        <li><a href="index.html" class="link" title="Torna a Home">Home</a></li>
+		                        <li>Lista</li>
+		                    </ul>
+							<div class="riordina">
+								<h3>Riordina la lista</h3>
+								<div class="btn-group-toggle" data-toggle="buttons">
+			                        <label class="btn btn-outline-secondary active mt-1">
+			                            <input type="radio" checked/> A-Z
+			                        </label>
+			                        <label class="btn btn-outline-secondary mt-1">
+			                            <input type="radio"/> Z-A
+			                        </label>
+			                        <label class="btn btn-outline-secondary mt-1">
+			                            <input type="radio"/> Ordine cronologico
+			                        </label>
+			                    </div>
+							</div>
+							<div class="filtra">
+								<h3>Filtra la lista</h3>
+								<div class="dropdown">
+						  			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+						  				Opere
+						  			</button>
+						  			<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+						    			<li><a class="dropdown-item" href="#">Covivio</a></li>
+						    			<li><a class="dropdown-item" href="#">Commedia</a></li>
+						    			<li><a class="dropdown-item" href="#">De monarchia</a></li>
+						    			<li><a class="dropdown-item" href="#">Detto amore</a></li>
+						    			<li><a class="dropdown-item" href="#">De vulgari eloquentia</a></li>
+						    			<li><button type="button" class="btn btn-primary mt-2">Filtra</button></li>
+						  			</ul>
+								</div>
+								<div class="dropdown">
+						  			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+						  				Date
+						  			</button>
+						  			<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+						    			<li><a class="dropdown-item" href="#">1825</a></li>
+						    			<li><a class="dropdown-item" href="#">1827</a></li>
+						    			<li><a class="dropdown-item" href="#">1851</a></li>
+						    			<li><a class="dropdown-item" href="#">1860</a></li>
+						    			<li><a class="dropdown-item" href="#">1900</a></li>
+						    			<li><button type="button" class="btn btn-primary mt-2">Filtra</button></li>
+						  			</ul>
+								</div>
+								<div class="dropdown">
+						  			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+						  				Luoghi
+						  			</button>
+						  			<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+						    			<li><a class="dropdown-item" href="#">Fondazione Ranieri di Sorbello, Perugia</a></li>
+						    			<li><a class="dropdown-item" href="#">Galleria Civica di Arte Moderna e Contemporanea, Torino</a></li>
+						    			<li><a class="dropdown-item" href="#">Internet Culturale</a></li>
+						    			<li><a class="dropdown-item" href="#">Istituto Luce - Cinecittà, Roma</a></li>
+						    			<li><a class="dropdown-item" href="#">Reggia di Caserta, Caserta</a></li>
+						    			<li><button type="button" class="btn btn-primary mt-2">Filtra</button></li>
+						  			</ul>
+								</div>
+							</div>
+						</aside>
+					</div>
+					<div class="col-md-9">
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="nav">
+  									<li class="nav-item">
+    									<a class="nav-link active" aria-current="page" href="#">All</a>
+  									</li>
+  									<li class="nav-item">
+   									    <a class="nav-link" href="#">Testi</a>
+  									</li>
+  									<li class="nav-item">
+    									<a class="nav-link" href="#">Immagini</a>
+  									</li>
+  									<li class="nav-item">
+    									<a class="nav-link disabled">Audio</a>
+  									</li>
+  									<li class="nav-item">
+    									<a class="nav-link disabled">Video</a>
+  									</li>
+  									<li class="nav-item">
+    									<a class="nav-link disabled">3D</a>
+  									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card" style="width: 18rem;">
+  									<img src="img_e_ico/dante-vela.jpg" class="card-img-top" alt="Dante">
+  									<div class="card-body">
+    									<h5 class="card-title">Bronzo di Dante</h5>
+    									<p class="card-text">Creatore: Vela, Vincenzo (VIAF).</p>
+    									<p class="card-text">Data: 1860</p>
+										<p class="card-text">Istituzione fornitrice: Galleria Civica di Arte Moderna e Contemporanea, Torino (Wikipedia).</p>
+    									<a href="#" class="btn btn-primary">Tutti i metadati</a>
+  									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card" style="width: 18rem;">
+  									<img src="img_e_ico/dante-rizzo.jpg" class="card-img-top" alt="Dante">
+  									<div class="card-body">
+    									<h5 class="card-title">Dante e Frate Ilario al Convento di Santa Croce</h5>
+    									<p class="card-text">Creatore: Rizzo, Luigi.</p>
+    									<p class="card-text">Data: 1851</p>
+										<p class="card-text">Istituzione fornitrice: Reggia di Caserta, Caserta.</p>
+    									<a href="#" class="btn btn-primary">Tutti i metadati</a>
+  									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card" style="width: 18rem;">
+  									<img src="img_e_ico/dante-tommaseo.jpg" class="card-img-top" alt="Dante">
+  									<div class="card-body">
+    									<h5 class="card-title">Il Perticari confutato da Dante: cenni</h5>
+    									<p class="card-text">Creatore: Tommaseo, Niccolò.</p>
+    									<p class="card-text">Data: 1825</p>
+										<p class="card-text">Istituzione fornitrice: Fondazione Ranieri di Sorbello, Perugia.</p>
+    									<a href="#" class="btn btn-primary">Tutti i metadati</a>
+  									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card" style="width: 18rem;">
+  									<img src="img_e_ico/dante-byron.jpg" class="card-img-top" alt="...">
+  									<div class="card-body">
+    									<h5 class="card-title">L'Italia e la profezia di Dante Alighieri</h5>
+    									<p class="card-text">Creatore: Byron, George Gordon.</p>
+    									<p class="card-text">Data: 1827</p>
+										<p class="card-text">Istituzione fornitrice: Fondazione Ranieri di Sorbello, Perugia.</p>
+    									<a href="#" class="btn btn-primary">Tutti i metadati</a>
+  									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card" style="width: 18rem;">
+  									<img src="img_e_ico/dante-euscreen.jpg" class="card-img-top" alt="...">
+  									<div class="card-body">
+    									<h5 class="card-title">Roma: La nuova Divina Commedia illustrata</h5>
+    									<p class="card-text">CFornitore: EUscreen.</p>
+    									<p class="card-text">Data: 1863</p>
+										<p class="card-text">Istituzione fornitrice: Istituto Luce - Cinecittà, Roma.</p>
+    									<a href="#" class="btn btn-primary">Tutti i metadati</a>
+  									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card" style="width: 18rem;">
+  									<img src="img_e_ico/dante-picozzi.png" class="card-img-top" alt="...">
+  									<div class="card-body">
+    									<h5 class="card-title">Tre sonetti in lode di Beatrice</h5>
+    									<p class="card-text">Interprete: Picozzi, Riccardo</p>
+    									<p class="card-text">Data: 1900</p>
+										<p class="card-text">Istituzione fornitrice: Internet culturale.</p>
+    									<a href="#" class="btn btn-primary">Tutti i metadati</a>
+  									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1">
+						<aside>
+							<p>Guida</p>
+						</aside>
+					</div>
+				</div>
+			</section>
+			<div class="row">
+                <div class="col-md-12">
+                    <nav>
+                        <ul class="pagination pagination-sm justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true"
+                                    title="Indietro">Previous</a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#" title="Pagina 1">1</a>
+                            </li>
+                            <li class="page-item" aria-current="page">
+                                <a class="page-link" href="#" title="Pagina 2">2</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#" title="Pagina 3">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" title="Avanti">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+		</main>
+		<footer>
+			<div class="container-fluid" style="background-color:darkblue; color:white;">
+				<div class="row">
+					<div class="col-md-6">
+						<h5>Attestazioni dantesche</h5>
+                        <ul class="footer-list mt-3">
+                            <li>SPARQL endpoint</li>
+                            <li>Download del dataset</li>
+                        </ul>
+                        <ul class="footer-list mt-3">
+                            <li>Specifiche tecniche</li>
+                            <li>Applicazione web</li>
+                        </ul>
+                        <ul class="footer-list mt-3">
+                            <li>Credits</li>
+                            <li>Licenze</li>
+                        </ul>
+					</div>
+					<div class="col-md-6">
+						<h5>/DH.arc - Digital Humanities Advanced Research Centre</h5>
+                        <ul class="footer-list mt-3">
+                            <li>About</li>
+                            <li>Tutti i progetti di /DH.arc</li>
+                            <li>Contatti</li>
+                        </ul>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid background-gray">
+            	<p class="text-center">© Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research Centre.</p>
+        	</div>
+		</footer>
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
